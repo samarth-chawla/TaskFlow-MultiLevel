@@ -15,12 +15,8 @@ Express.js backend with PostgreSQL for the TaskFlow application.
    - Create a database named `taskflow`
    - Create `.env` and add your database credentials
 
-3. **Set up database schema:**
-   ```bash
-   npm run setup-db
-   ```
 
-4. **Start the server:**
+3. **Start the server:**
    ```bash
    # Development
    npm run dev

@@ -240,7 +240,7 @@ app.post(
       res.json(responseData);
     } catch (error) {
       console.error("Backend: Login error:", error);
-      res.status(500).json({ error: "Internal server error" });
+      res.status(500).json({ error: err.message });
     }
   }
 );
